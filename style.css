@@ -1,0 +1,43 @@
+
+.stApp {
+    background: linear-gradient(
+        135deg,
+        #101827,
+        #172554,
+        #312e81
+    );
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: #60a5fa;
+    font-weight: bold;
+}
+
+h2, h3 {
+    color: #93c5fd;
+}
+
+.stButton > button {
+    background: linear-gradient(
+        135deg,
+        #2563eb,
+        #7c3aed
+    );
+    color: white;
+    border-radius: 12px;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    min-height: 75px;
+}
+
+.stButton > button:hover {
+    border: 2px solid #60a5fa;
+    color: white;
+}
+
+.stSelectbox {
+    color: white;
+}
